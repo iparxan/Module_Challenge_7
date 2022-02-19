@@ -11,7 +11,7 @@ In this project, Bobby wants to determine retiring employees with their titles a
 ![Alt]("resources/mywork/retiring_title.csv")
 2. The company currently has over 500 employees for a mentorship program. Senior-level engineering needs only 169 employees could have the possibility for mentorship programs.
 
-![Alt]("resource/mywork/count_mentoship.csv)
+![Alt Text]("/Resources/count_mentorship.csv")
 
 
 # Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
