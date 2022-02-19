@@ -8,10 +8,10 @@ In this project, Bobby wants to determine retiring employees with their titles a
 # Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 
 1. From the table, as shown below, we knew that each title section had a different amount of retiring employees, especially Senior levels had more people who would be retiring very soon.
-![Alt]("Resources/retiring_title.csv")
+![Alt](/Resources/retiring_title.csv/)
 2. The company currently has over 500 employees for a mentorship program. Senior-level engineering needs only 169 employees could have the possibility for mentorship programs.
 
-![Alt Text]("../Resources/count_mentorship.csv")
+![Alt Text](/Resources/count_mentorship.csv/)
 
 
 # Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
