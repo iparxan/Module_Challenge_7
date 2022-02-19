@@ -88,6 +88,26 @@ LEFT JOIN titles as tit ON tit.emp_no=depem.emp_no
 WHERE depem.to_date='9999-01-01' AND emp.birth_date BETWEEN '1965-01-01' AND '1965-12-31'
 ORDER BY emp.emp_no ASC;
 
+SELECT COUNT(men.emp_no), men.title
+INTO count_mentoship_info
+FROM mentorship_info AS men
+GROUP BY men.title
+ORDER BY COUNT(men.emp_no) ASC;
+
+SELECT SUM(rit.count)
+FROM retiring_titles_info as rit;
+
+SELECT SUM(MENI.COUNT)
+FROM count_mentoship_info AS MENI;
+
+
+SELECT rit.count,rit.title, meni.count
+INTO combine_retire_mentor
+FROM retiring_titles_info as rit
+LEFT JOIN count_mentoship_info AS MENI
+ON rit.title=meni.title;
+
+
 
 
 
