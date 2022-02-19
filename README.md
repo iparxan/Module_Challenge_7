@@ -20,8 +20,7 @@ In this project, Bobby wants to determine retiring employees with their titles a
 
 In the 'silver tsunami,' after people in the retired list retire, the company needs to hire many new employees for these seven different job tiles. Especially the shortage in Senior staff will be the highest-numbered, in which 23911 employees will retire soon, followed by Senior engineer sections with 87374 employees and so on, as shown in table 1. The total number of employees ready to retire is 52309, among seven different titles. 
 
-
-
+![ALt Text](/Resources/myresults/retire_mentorshipcount.png/)
 
 
 # Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
